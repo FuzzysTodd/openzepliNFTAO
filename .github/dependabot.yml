@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    versioning-strategy: "auto"
+    directory: / 
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    versioning-strategy: "auto"
+    directory: / 
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gomod"
+    versioning-strategy: "auto"
+    directory: / 
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "github-actions"
+    versioning-strategy: "auto"
+    directory: / 
+    schedule:
+      interval: "weekly"
